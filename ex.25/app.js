@@ -5,51 +5,49 @@ const readline = require("readline-sync");
 
 const mes = readline.questionInt("Digite o numero equivalente ao mes: ");
 
-const date = new Date();
-
 switch (mes){
     case 0: {
         console.log("Mês zero não existe");
     }
     case 1: 
-        console.log(`Janeiro`);
+        console.log(`Janeiro tem 31 dias`);
     break;
     case 2: 
-        console.log("Fevereiro");
+        console.log("Fevereiro tem 28 ~ 29 dias");
     break;
     case 3: 
-        console.log("Março");
+        console.log("Março tem 31 dias");
     break;
     case 4: 
-        console.log("Abril");
+        console.log("Abril tem 30 dias");
     break;
     case 5: 
-        console.log("Maio");
+        console.log("Maio tem 31 dias");
     break;
     case 6: 
-        console.log("Junho");
+        console.log("Junho tem 30 dias");
     break;
     case 7: 
-        console.log("Julho");
+        console.log("Julho tem 31 dias");
     break;
     case 8: 
-        console.log("Agosto");
+        console.log("Agosto tem 31 dias");
     break;
     case 9: 
-        console.log("Setembro");
+        console.log("Setembro tem 30 dias");
     break;
     case 10: 
-        console.log("Outubro");
+        console.log("Outubro tem 31 dias");
     break;
     case 11: 
-        console.log("Novembro");
+        console.log("Novembro tem 30 dias");
     break;
     case 12: 
-        console.log("Dezembro");
+        console.log("Dezembro tem 31 dias");
     break;
     default: 
         console.log("Digite um número do mês valido");
 }
 
-
-// Falta terminar.
+// Terminado
+// Foi um jeito ruim na minha opnião, de concluir esse desafio. Acho que pode ser refatorado.
